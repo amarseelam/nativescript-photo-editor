@@ -106,7 +106,7 @@
                 cwd: "android/"
             },
             npm_publish: {
-                cmd: "npm publish",
+                cmd: "npm publish --access public",
                 cwd: localConfig.outDir
             },
         }
