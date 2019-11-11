@@ -70,7 +70,7 @@
                     {
                         expand: true,
                         flatten: true,
-                        src: ["android/**/*-release.aar"],
+                        src: ["android/**/*.aar"],
                         dest: localConfig.outDir + "platforms/android/",
                     }
                 ],
